@@ -24,7 +24,7 @@ function WishList() {
       <input
         type="text"
         id="taskInput"
-        placeholder="Add a new task"
+        placeholder="Add a new List"
         value={taskInput}
         onChange={(e) => setTaskInput(e.target.value)}
       />
@@ -38,7 +38,7 @@ function WishList() {
               className="delete-button"
               onClick={() => deleteTask(index)}
             >
-              Delete
+              Delete 
             </button>
           </li>
         ))}
